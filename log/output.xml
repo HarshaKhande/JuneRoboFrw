@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-27T16:57:01.849738" rpa="false" schemaversion="5">
+<suite id="s1" name="Variables" source="C:\Users\Harsha Patil\PycharmProjects\RobotFramework\wipro\selenium\Variables.robot">
+<test id="s1-t1" name="Test Case 1" line="7">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.891790" level="INFO">John</msg>
+<arg>${my_var}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.891790" elapsed="0.005419"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.897209" level="INFO">['Apple', 'Banana', 'Orange']</msg>
+<arg>${my_list}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.897209" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.897209" level="INFO">{'name': 'admin', 'password': 'admin123'}</msg>
+<arg>${my_dict}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.897209" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.897209" level="INFO">Apple</msg>
+<arg>${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.897209" elapsed="0.000000"/>
+</kw>
+<var name="${item}">Apple</var>
+<status status="PASS" start="2024-05-27T16:57:01.897209" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.897209" level="INFO">Banana</msg>
+<arg>${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.897209" elapsed="0.004516"/>
+</kw>
+<var name="${item}">Banana</var>
+<status status="PASS" start="2024-05-27T16:57:01.897209" elapsed="0.004516"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.901725" level="INFO">Orange</msg>
+<arg>${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.000000"/>
+</kw>
+<var name="${item}">Orange</var>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.000000"/>
+</iter>
+<var>${item}</var>
+<value>@{my_list}</value>
+<status status="PASS" start="2024-05-27T16:57:01.897209" elapsed="0.004516"/>
+</for>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.901725" level="INFO">admin</msg>
+<arg>${my_dict}[name]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.901725" level="INFO">admin123</msg>
+<arg>${my_dict}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Log Many" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.901725" level="INFO">name</msg>
+<msg time="2024-05-27T16:57:01.901725" level="INFO">admin</msg>
+<arg>${key}</arg>
+<arg>${value}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.000000"/>
+</kw>
+<var name="${key}">name</var>
+<var name="${value}">admin</var>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log Many" owner="BuiltIn">
+<msg time="2024-05-27T16:57:01.905540" level="INFO">password</msg>
+<msg time="2024-05-27T16:57:01.905540" level="INFO">admin123</msg>
+<arg>${key}</arg>
+<arg>${value}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<status status="PASS" start="2024-05-27T16:57:01.905540" elapsed="0.000623"/>
+</kw>
+<var name="${key}">password</var>
+<var name="${value}">admin123</var>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.004438"/>
+</iter>
+<var>${key}</var>
+<var>${value}</var>
+<value>&amp;{my_dict}</value>
+<status status="PASS" start="2024-05-27T16:57:01.901725" elapsed="0.004438"/>
+</for>
+<status status="PASS" start="2024-05-27T16:57:01.891790" elapsed="0.014373"/>
+</test>
+<status status="PASS" start="2024-05-27T16:57:01.868638" elapsed="0.037525"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Variables">Variables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

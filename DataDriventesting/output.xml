@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-06-27T12:59:45.204994" rpa="false" schemaversion="5">
+<suite id="s1" name="Excel" source="C:\Users\Harsha Patil\PycharmProjects\RobotFramework\DataDriventesting\Excel.robot">
+<kw name="Launch App" owner="DDTKeywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-06-27T12:59:48.989178" level="INFO">Opening browser 'chrome' to base url 'https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F'.</msg>
+<msg time="2024-06-27T12:59:49.909089" level="WARN">The chromedriver version (125.0.6422.78) detected in PATH at C:\Users\Harsha Patil\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.116); currently, chromedriver 126.0.6478.126 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-06-27T12:59:48.986659" elapsed="4.341803"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-06-27T12:59:53.328462" elapsed="0.044793"/>
+</kw>
+<status status="PASS" start="2024-06-27T12:59:48.986659" elapsed="4.386596"/>
+</kw>
+<test id="s1-t1" name="Login with user admin@yourstore.com and password admin12" line="12">
+<kw name="Invalid Login">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T12:59:56.388512" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T12:59:53.378370" elapsed="3.010142"/>
+</kw>
+<kw name="Set Email" owner="DDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-27T12:59:56.388512" level="INFO">Typing text 'admin@yourstore.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T12:59:56.388512" elapsed="0.250345"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2024-06-27T12:59:56.388512" elapsed="0.250345"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T12:59:59.639109" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T12:59:56.638857" elapsed="3.000252"/>
+</kw>
+<kw name="Set Password" owner="DDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-27T12:59:59.639699" level="INFO">Typing text 'admin12' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T12:59:59.639699" elapsed="0.291307"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2024-06-27T12:59:59.639109" elapsed="0.291897"/>
+</kw>
+<kw name="Click Login" owner="DDTKeywords">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-27T12:59:59.931006" level="INFO">Clicking button '//button[@type="submit"]'.</msg>
+<arg>//button[@type="submit"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T12:59:59.931006" elapsed="0.947856"/>
+</kw>
+<status status="PASS" start="2024-06-27T12:59:59.931006" elapsed="0.947856"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T13:00:06.880282" level="INFO">Slept 6 seconds.</msg>
+<arg>6s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T13:00:00.880086" elapsed="6.000196"/>
+</kw>
+<kw name="Error Message Should Be Visible" owner="DDTKeywords">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:06.902313" level="INFO">Current page contains text 'Login was unsuccessful'.</msg>
+<arg>Login was unsuccessful</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-06-27T13:00:06.880282" elapsed="0.022031"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:06.880282" elapsed="0.023038"/>
+</kw>
+<arg>username=admin@yourstore.com</arg>
+<arg>password=admin12</arg>
+<tag>Sanity</tag>
+<status status="PASS" start="2024-06-27T12:59:53.376500" elapsed="13.526820"/>
+</kw>
+<status status="PASS" start="2024-06-27T12:59:53.373255" elapsed="13.530065"/>
+</test>
+<test id="s1-t2" name="Login with user adm23@yourstore.com and password admin" line="12">
+<kw name="Invalid Login">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T13:00:09.905876" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T13:00:06.905794" elapsed="3.000082"/>
+</kw>
+<kw name="Set Email" owner="DDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:09.906890" level="INFO">Typing text 'adm23@yourstore.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T13:00:09.906890" elapsed="0.171830"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2024-06-27T13:00:09.905876" elapsed="0.172844"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T13:00:13.079957" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T13:00:10.078720" elapsed="3.001237"/>
+</kw>
+<kw name="Set Password" owner="DDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:13.079957" level="INFO">Typing text 'admin' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T13:00:13.079957" elapsed="0.129012"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2024-06-27T13:00:13.079957" elapsed="0.129012"/>
+</kw>
+<kw name="Click Login" owner="DDTKeywords">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:13.209970" level="INFO">Clicking button '//button[@type="submit"]'.</msg>
+<arg>//button[@type="submit"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T13:00:13.209970" elapsed="0.395325"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:13.209970" elapsed="0.396337"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T13:00:19.606510" level="INFO">Slept 6 seconds.</msg>
+<arg>6s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T13:00:13.606307" elapsed="6.000203"/>
+</kw>
+<kw name="Error Message Should Be Visible" owner="DDTKeywords">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:19.623626" level="INFO">Current page contains text 'Login was unsuccessful'.</msg>
+<arg>Login was unsuccessful</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-06-27T13:00:19.606510" elapsed="0.017116"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:19.606510" elapsed="0.019341"/>
+</kw>
+<arg>username=adm23@yourstore.com</arg>
+<arg>password=admin</arg>
+<tag>Sanity</tag>
+<status status="PASS" start="2024-06-27T13:00:06.905794" elapsed="12.720057"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:06.904783" elapsed="12.721068"/>
+</test>
+<test id="s1-t3" name="Login with user adm@yourstore.com and password admin" line="12">
+<kw name="Invalid Login">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T13:00:22.629399" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T13:00:19.629085" elapsed="3.000314"/>
+</kw>
+<kw name="Set Email" owner="DDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:22.629399" level="INFO">Typing text 'adm@yourstore.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T13:00:22.629399" elapsed="0.153783"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2024-06-27T13:00:22.629399" elapsed="0.153783"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T13:00:25.784741" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T13:00:22.783182" elapsed="3.001559"/>
+</kw>
+<kw name="Set Password" owner="DDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:25.784741" level="INFO">Typing text 'admin' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T13:00:25.784741" elapsed="0.164947"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2024-06-27T13:00:25.784741" elapsed="0.164947"/>
+</kw>
+<kw name="Click Login" owner="DDTKeywords">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:25.949688" level="INFO">Clicking button '//button[@type="submit"]'.</msg>
+<arg>//button[@type="submit"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-27T13:00:25.949688" elapsed="0.406220"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:25.949688" elapsed="0.406220"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-27T13:00:32.356222" level="INFO">Slept 6 seconds.</msg>
+<arg>6s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-27T13:00:26.355908" elapsed="6.000314"/>
+</kw>
+<kw name="Error Message Should Be Visible" owner="DDTKeywords">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-06-27T13:00:32.377177" level="INFO">Current page contains text 'Login was unsuccessful'.</msg>
+<arg>Login was unsuccessful</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-06-27T13:00:32.356222" elapsed="0.020955"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:32.356222" elapsed="0.021557"/>
+</kw>
+<arg>username=adm@yourstore.com</arg>
+<arg>password=admin</arg>
+<tag>Sanity</tag>
+<status status="PASS" start="2024-06-27T13:00:19.629085" elapsed="12.748694"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:19.627201" elapsed="12.750578"/>
+</test>
+<kw name="Close App" owner="DDTKeywords" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-06-27T13:00:32.377779" elapsed="6.370147"/>
+</kw>
+<status status="PASS" start="2024-06-27T13:00:32.377779" elapsed="6.370147"/>
+</kw>
+<status status="PASS" start="2024-06-27T12:59:45.209002" elapsed="53.538924"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Excel">Excel</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-27T12:59:49.909089" level="WARN">The chromedriver version (125.0.6422.78) detected in PATH at C:\Users\Harsha Patil\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (126.0.6478.116); currently, chromedriver 126.0.6478.126 is recommended for chrome 126.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>

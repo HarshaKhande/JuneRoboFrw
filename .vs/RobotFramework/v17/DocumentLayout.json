@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\DropDowns.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\DropDowns.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Checkboxes.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\Checkboxes.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\BrowserCommands.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\BrowserCommands.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\FileUpload.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\FileUpload.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Login.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\Login.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\tabbedwindows.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\tabbedwindows.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Screenshot.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\Screenshot.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\output.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\output.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\NavigationalCommands.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\NavigationalCommands.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\ImplicitWaits.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\ImplicitWaits.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\KeyboardEvent.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Selenium\\KeyboardEvent.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Variables.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\Variables.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\UserDefinedKewywords.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\UserDefinedKewywords.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Testcase.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\Testcase.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Tags.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\Tags.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Sample.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\Sample.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\output.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\output.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\log.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\log.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\ListVariables.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\ListVariables.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Keywords.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\Keywords.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\FirstFile.robot||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSuite\\FirstFile.robot||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BrowserCommands.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\BrowserCommands.robot",
+              "RelativeDocumentMoniker": "Selenium\\BrowserCommands.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\BrowserCommands.robot",
+              "RelativeToolTip": "Selenium\\BrowserCommands.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:54:18.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkboxes.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Checkboxes.robot",
+              "RelativeDocumentMoniker": "Selenium\\Checkboxes.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Checkboxes.robot",
+              "RelativeToolTip": "Selenium\\Checkboxes.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:43:34.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DropDowns.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\DropDowns.robot",
+              "RelativeDocumentMoniker": "Selenium\\DropDowns.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\DropDowns.robot",
+              "RelativeToolTip": "Selenium\\DropDowns.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:25:05.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tabbedwindows.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\tabbedwindows.robot",
+              "RelativeDocumentMoniker": "Selenium\\tabbedwindows.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\tabbedwindows.robot",
+              "RelativeToolTip": "Selenium\\tabbedwindows.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:24:25.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Screenshot.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Screenshot.robot",
+              "RelativeDocumentMoniker": "Selenium\\Screenshot.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Screenshot.robot",
+              "RelativeToolTip": "Selenium\\Screenshot.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:24:21.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "output.xml",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\output.xml",
+              "RelativeDocumentMoniker": "Selenium\\output.xml",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\output.xml",
+              "RelativeToolTip": "Selenium\\output.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-01-24T11:24:20.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileUpload.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\FileUpload.robot",
+              "RelativeDocumentMoniker": "Selenium\\FileUpload.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\FileUpload.robot",
+              "RelativeToolTip": "Selenium\\FileUpload.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:24:13.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavigationalCommands.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\NavigationalCommands.robot",
+              "RelativeDocumentMoniker": "Selenium\\NavigationalCommands.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\NavigationalCommands.robot",
+              "RelativeToolTip": "Selenium\\NavigationalCommands.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:24:16.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Login.robot",
+              "RelativeDocumentMoniker": "Selenium\\Login.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\Login.robot",
+              "RelativeToolTip": "Selenium\\Login.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:16:57.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImplicitWaits.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\ImplicitWaits.robot",
+              "RelativeDocumentMoniker": "Selenium\\ImplicitWaits.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\ImplicitWaits.robot",
+              "RelativeToolTip": "Selenium\\ImplicitWaits.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:24:12.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KeyboardEvent.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\KeyboardEvent.robot",
+              "RelativeDocumentMoniker": "Selenium\\KeyboardEvent.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\Selenium\\KeyboardEvent.robot",
+              "RelativeToolTip": "Selenium\\KeyboardEvent.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T11:24:12.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Testcase.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Testcase.robot",
+              "RelativeDocumentMoniker": "TestSuite\\Testcase.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Testcase.robot",
+              "RelativeToolTip": "TestSuite\\Testcase.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T10:07:36.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Sample.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Sample.robot",
+              "RelativeDocumentMoniker": "TestSuite\\Sample.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Sample.robot",
+              "RelativeToolTip": "TestSuite\\Sample.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T10:07:31.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "output.xml",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\output.xml",
+              "RelativeDocumentMoniker": "TestSuite\\output.xml",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\output.xml",
+              "RelativeToolTip": "TestSuite\\output.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-01-24T10:07:28.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDefinedKewywords.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\UserDefinedKewywords.robot",
+              "RelativeDocumentMoniker": "TestSuite\\UserDefinedKewywords.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\UserDefinedKewywords.robot",
+              "RelativeToolTip": "TestSuite\\UserDefinedKewywords.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T10:05:38.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Tags.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Tags.robot",
+              "RelativeDocumentMoniker": "TestSuite\\Tags.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Tags.robot",
+              "RelativeToolTip": "TestSuite\\Tags.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T10:03:02.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Variables.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Variables.robot",
+              "RelativeDocumentMoniker": "TestSuite\\Variables.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Variables.robot",
+              "RelativeToolTip": "TestSuite\\Variables.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T09:32:32.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "log.html",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\log.html",
+              "RelativeDocumentMoniker": "TestSuite\\log.html",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\log.html",
+              "RelativeToolTip": "TestSuite\\log.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-24T10:07:24.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ListVariables.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\ListVariables.robot",
+              "RelativeDocumentMoniker": "TestSuite\\ListVariables.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\ListVariables.robot",
+              "RelativeToolTip": "TestSuite\\ListVariables.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T09:32:26.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FirstFile.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\FirstFile.robot",
+              "RelativeDocumentMoniker": "TestSuite\\FirstFile.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\FirstFile.robot",
+              "RelativeToolTip": "TestSuite\\FirstFile.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T09:27:06.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Keywords.robot",
+              "DocumentMoniker": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Keywords.robot",
+              "RelativeDocumentMoniker": "TestSuite\\Keywords.robot",
+              "ToolTip": "C:\\Users\\Harsha Patil\\PycharmProjects\\RobotFramework\\TestSuite\\Keywords.robot",
+              "RelativeToolTip": "TestSuite\\Keywords.robot",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T09:27:04.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
