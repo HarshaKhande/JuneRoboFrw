@@ -32,12 +32,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable chromium-chromedriver
-          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/136.0.7103.113/linux64/chromedriver-linux64.zip
-          unzip chromedriver-linux64.zip
-          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
-          sudo chmod +x /usr/local/bin/chromedriver
           # Expose chromedriver on PATH
           sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/local/bin/chromedriver
+          sudo rm /usr/local/bin/chromedriver
 
       # Install project requirements
       - name: 📦  Install Python dependencies
