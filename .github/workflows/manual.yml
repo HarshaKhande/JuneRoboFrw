@@ -33,8 +33,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable chromium-chromedriver
           # Expose chromedriver on PATH
-          sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/local/bin/chromedriver
           sudo rm /usr/local/bin/chromedriver
+         
+          
 
       # Install project requirements
       - name: 📦  Install Python dependencies
