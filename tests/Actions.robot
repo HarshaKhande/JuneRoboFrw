@@ -5,10 +5,11 @@ Library  SeleniumLibrary
 
 ${browser}  firefox
 ${url}  https://demowebshop.tricentis.com/register
+${HEADLESS_OPTIONS}=    --headless --no-sandbox --disable-dev-shm-usage --disable-gpu
 
 *** Test Cases ***
 MouseActions
-    Open Browser       https://swisnl.github.io/jQuery-contextMenu/demo.html       ${browser}
+    Open Browser       https://swisnl.github.io/jQuery-contextMenu/demo.html       ${browser}        options=${HEADLESS_OPTIONS}
     Maximize Browser Window
 
     #right click
