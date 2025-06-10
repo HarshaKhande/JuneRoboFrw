@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 
-${browser}  chrome
+${browser}  firefox
 ${url}  https://demowebshop.tricentis.com/register
 
 *** Test Cases ***
