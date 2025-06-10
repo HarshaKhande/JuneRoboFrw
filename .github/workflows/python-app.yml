@@ -24,6 +24,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install robotframework
           pip install robotframework-seleniumlibrary
+          pip install robotframework-jsonlibrary
+           pip install robotframework-requestlibrary
    
       - name: Test with RobotFramework
         run: robot .  
