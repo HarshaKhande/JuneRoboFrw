@@ -5,13 +5,18 @@ Library  SeleniumLibrary
 
 ${browser}  firefox
 ${url}  https://demowebshop.tricentis.com/register
-${HEADLESS_OPTIONS}=    --headless --no-sandbox --disable-dev-shm-usage --disable-gpu
+
 
 *** Test Cases ***
 MouseActions
-    Open Browser       https://swisnl.github.io/jQuery-contextMenu/demo.html       ${browser}        options=${HEADLESS_OPTIONS}
-    Maximize Browser Window
 
+    ${chrome options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys
+    Call Method    ${chrome options}    add_argument    --headless
+    Call Method    ${chrome options}    add_argument    --no-sandbox
+    Call Method    ${chrome options}    add_argument    --disable-dev-shm-usage
+    Create WebDriver    Chrome    options=${chrome options}
+    Go To     https://swisnl.github.io/jQuery-contextMenu/demo.html
+    Maximize Browser Window
     #right click
     Open Context Menu    //span[text()='right click me']    # open context menu--right click on element identified by locator
     Sleep    3s
