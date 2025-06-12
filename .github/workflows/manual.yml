@@ -22,11 +22,9 @@ jobs:
 
       - name: 📦 Install dependencies
         run: |
-          sudo rm -rf /usr/local/bin/chromedriver
           pip install robotframework
           pip install robotframework-seleniumlibrary
           # Remove the old driver
-          sudo rm /usr/local/bin/chromedriver
           # Download correct version (136.0.7103.113)
           wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/136.0.7103.113/linux64/chromedriver-linux64.zip
           # Extract and move to PATH
