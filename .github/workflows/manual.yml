@@ -27,6 +27,14 @@ jobs:
           pip install robotframework-seleniumlibrary
           pip install webdrivermanager
           webdrivermanager chrome --linkpath /usr/local/bin
+          # Remove the old driver
+          sudo rm /usr/local/bin/chromedriver
+          # Download correct version (136.0.7103.113)
+          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/136.0.7103.113/linux64/chromedriver-linux64.zip
+          # Extract and move to PATH
+          unzip chromedriver-linux64.zip
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+          sudo chmod +x /usr/local/bin/chromedriver
 
       - name: 🧪 Run Robot Framework Tests
         run: |
