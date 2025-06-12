@@ -37,4 +37,4 @@ jobs:
 
       - name: 🧪 Run Robot Framework Tests
         run: |
-          robot tests/Actions.robot
+          robot tests/
