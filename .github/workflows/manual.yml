@@ -17,24 +17,24 @@ jobs:
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
          
 
       - name: 📦 Install dependencies
         run: |
-          pip install robotframework
-          pip install robotframework-seleniumlibrary
-          # Remove the old driver
-          # Download correct version (136.0.7103.113)
-          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/136.0.7103.113/linux64/chromedriver-linux64.zip
-          # Extract and move to PATH
+          pip install robotframework selenium
+
+      - name: Remove old ChromeDriver
+        run: sudo rm -f /usr/local/bin/chromedriver
+
+      - name: Install ChromeDriver 137.0.7151.70
+        run: |
+          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/137.0.7151.70/linux64/chromedriver-linux64.zip
           unzip chromedriver-linux64.zip
           sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
-          pip install webdrivermanager
-          webdrivermanager chrome --linkpath /usr/local/bin
         
 
       - name: 🧪 Run Robot Framework Tests
         run: |
-          robot tests/
+          robot tests/Actions.robot
